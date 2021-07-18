@@ -13,7 +13,7 @@ if play_type == '2p':
 else:
     correct_word_str = random.choice(predetermined_words)
 correct_word_str = correct_word_str.lower()
-correct_word = correct_word_str.split(" ")
+correct_word = list(correct_word_str)
 allowed_tries = input('Select the number of tries: ')
 tries = 0
 good_tries = 0
