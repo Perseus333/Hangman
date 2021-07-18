@@ -1,4 +1,2 @@
 # Hangman
-A simple hang man game
-To play rember to type the correct word with spaces between every letter like this:
-H e l l o
+A simple hang man game with a command line interface.
